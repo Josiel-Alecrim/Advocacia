@@ -1,0 +1,367 @@
+/*MENU NAV*/
+
+.navbar  {
+    font-family: Arial Narrow;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.navbar li a:hover {
+    border-bottom: 2px solid rgb(59, 216, 255);
+    margin-top: -2px;
+}
+
+/*Slider*/
+
+#myCarousel {
+    margin-top: -20px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  #txt1 p, H3 {
+    color: rgb(150, 150, 150);
+    text-align: center;
+  }
+
+  #txt1 .column {
+    border: 2px solid #fafafa;
+    margin-top: 1px;  
+  }
+
+#txt1 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#txt1 h3 {
+text-align: center;
+}
+
+#txt1 .column:hover {
+  border-bottom: 2px solid rgb(59, 216, 255);
+  margin-top: 1px;
+}
+
+
+/* SERVIÇOS */
+
+ .bckgd {
+  background-image: url('../imagens/back4.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover
+  text-align: center;
+}
+
+.bckgd p {
+  font-family: Arial Narrow;
+  font-style: normal;
+  color: rgb(247, 242, 242);
+  font-weight: 100;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+
+.bckgd h3 {
+  padding-bottom: 10px;
+  padding-top: 15px;
+  color: rgb(247, 242, 242);
+}
+
+
+/* NOSSA EQUIPE */
+
+#about  {
+	margin-top:80px;
+	margin-bottom:40px;
+}
+
+#about .lead {
+	text-align:center;
+	font-size:18px;
+	margin-bottom:50px;
+}
+
+#about  img {
+	margin-bottom:40px;
+}
+
+.panel-default{
+  border-color: transparent;
+}
+
+.panel-default>.panel-heading,
+.panel{
+  background-color: #e6e6e6;
+  border:0 none;
+  box-shadow:none;
+}
+
+.panel-default>.panel-heading+.panel-collapse .panel-body{
+  background: #fff;
+  color: #858586;
+}
+
+.panel-body{
+  padding: 20px 20px 10px;
+}
+
+.panel-group .panel+.panel{
+  margin-top: 20px;
+  border-top: 1px solid #fff;
+}
+
+.panel-group .panel{
+  border-radius: 0;
+}
+
+.panel-heading{
+	border-radius: 0;
+}
+
+.panel-title>a{
+  color: #4e4e4e;
+}
+
+.accordion-inner img{
+  border-radius: 4px;
+}
+
+
+.panel-heading.active{
+  background: #1f1f20;
+}
+
+.panel-heading.active .panel-title>a{
+  color:#fff;
+}
+
+a.accordion-toggle  i{
+  width: 40px;
+  line-height: 38px;
+  font-size: 20px;
+  margin-top: -10px;
+  text-align: center;
+  margin-right: -15px;
+  background: #F77CAD;
+  color:#fff;
+}
+
+.panel-heading.active a.accordion-toggle i{
+  background: #F77CAD;
+  color: #fff;
+}
+
+.panel-heading.active a.accordion-toggle.collapsed i{
+  background: #F77CAD;
+  color: #fff;
+}
+
+
+
+/*
+ TXT3
+*/
+
+#contatto legend {
+  border-bottom: 1px solid #FFFFFF;
+}
+
+#contatto {
+  background-image: url('../imagens/contato.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+
+#contatto {
+  width: 100%;
+  margin-top: 0px;
+}
+
+.col-md-4 #nome, #email, #assunto, #mensagem {
+  font-family: 'Roboto', sans-serif;
+  border: 2px solid#fff;
+  width: 100%;
+  max-width: 600px;
+}
+
+
+
+.col-md-4, label {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  color: #fff;
+}
+
+#contatto legend {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.textarea {
+  height: 150px;
+  margin-top: 20px;
+  padding: 12px;
+  border: 1px solid #d6d6d6;
+}
+
+.form-group button {
+  color: #000000;
+  margin-bottom: 20px;
+  background: rgb(235, 235, 235);
+}
+
+
+/*
+
+Mapa da Google
+
+*/
+
+#mapa iframe {
+  width: 100%;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/*
+
+TXT5
+
+*/
+.footer {
+  background-image: url('../imagens/footer.png');
+  width: 100%;
+  
+}
+
+.footer .column {
+  width:25%;
+  display: block;
+}
+
+.footer p, li, a{
+  color: #898989;
+}
+
+.footer h2 {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+   text-align:left;
+   margin-top: 50px;
+   font-size: 18px;
+   line-height:1.1em;
+   color: #FFFFFF;
+   
+}
+
+.footer li, a:hover {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  text-align:left;
+  line-height:1.1em;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+#redes-sociais img, li {
+  margin:  10px;
+}
+
+
+
+.clock:before {
+  content: '';
+  width:  15px;
+  height: 15px;
+  display: inline-block;
+  background-image: url('../imagens/clock.png');
+  background-repeat: no-repeat;
+}
+
+.clock:before, .local:before, .emailico:before, .telefoneico:before {
+  content: '';
+  width:  17px;
+  height: 24px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  
+}
+.clock::before {
+  background-image: url('../imagens/clock.png');
+}
+.local:before {
+  background-image: url('../imagens/local.png');
+}
+.emailico:before {
+  background-image: url('../imagens/email.png');
+}
+.telefoneico:before {
+  background-image: url('../imagens/telefoneico.png');
+}
+
+
+
+/*
+  TXT6
+*/
+
+.footer-2 {
+  background-image: url('../imagens/footer2.png');
+  color: #c1c1c1;
+  height: 100px;
+  padding-top: 20px;
+  text-decoration: none;
+  
+}
+
+.footer-2 p {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+}
+
+
